@@ -1,0 +1,86 @@
+*{margin: 0;
+padding: 0;
+font-family:  'Poppins', sans-serif;
+box-sizing: border-box;}
+
+.flex { display: flex;
+    align-items: center;}
+
+/* TOP BANNER */
+
+.Top_Banner {
+height: 50px;
+color: white;
+background-color: rgb(16, 26, 43);
+justify-content: center;
+align-items: center;
+}
+
+/* NAVIGATION BAR */
+
+.Navigation_Bar { 
+height: 50px;
+width: 100%;
+justify-content:end;
+flex-flow: wrap row;
+padding: 0 10%;
+border: 1px solid rgb(16, 26, 43);
+text-decoration: none;}
+
+ul{list-style: none;
+height: 50px;
+width: 50%;
+justify-content: space-around;
+}
+
+a {color: rgb(16, 46, 98)}
+
+a:hover { color: rgb(130, 174, 255);}
+
+.logo {color: rgb(8, 26, 58);
+}
+
+/* HERO SECTION */
+
+.Hero_Section { justify-content: space-between;
+padding: 0 10%;
+background-color: rgb(4, 18, 42);
+color: white;
+height: 85vh;
+background-image: url(https://images.unsplash.com/photo-1635336969198-ec9553adc0e1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80);
+background-repeat: no-repeat;
+background-size: 100% 100%;}
+
+.Text_content { width: 50%;}
+
+.Main_Head {font-size: 75px;}
+
+.Side_Pic { width:50%}
+
+/* BELOW BAR */
+
+.Black_Space {height:50px;
+width: 100%;
+background-color: rgb(1, 9, 22);
+padding: 0 10%;
+justify-content:space-between;
+align-content: center;
+color: white;
+}
+
+.Crypto {height:50%;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
