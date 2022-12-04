@@ -141,15 +141,22 @@ padding:0 0;}
 
 /* FOOTER */
 
-.footer{height: 50vh;
-background-color: #010916;}
+.footer{height: 25vh;
+background-color: #010916;
+color: white;
+padding: 2% 10%;
+justify-content: center;
+}
+
+.Connect_me {font-size: 30px;
+justify-content: center;
+}
+
+.Contact{height: 75px;
+padding: 20%;}
 
 
+.container{padding: 0 35%;
+justify-content: space-between;}
 
-
-
-
-
-
-
-
+html{scroll-behavior: smooth;}
