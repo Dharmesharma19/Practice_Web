@@ -72,7 +72,7 @@ color: white;}
 
 .Crypto {height:50%;}
 
-/* GALLER WINDOW */
+/* GALLERY WINDOW */
 
 .Gallery { justify-content:space-evenly;
 padding: 0 10%;
@@ -160,3 +160,68 @@ padding: 20%;}
 justify-content: space-between;}
 
 html{scroll-behavior: smooth;}
+
+
+
+@media screen and (max-width:1024px) {
+
+    /* NAVBAR */
+    .Navigation_Bar{display: none;}
+
+    /* HERO SECTION */
+    
+    .Text_content { width: 100%;}
+
+    .Main_Head {font-size: 75px;
+    text-align: center;}
+
+    .Main_Body_Text{text-align: center;
+    font-size: 14px;}
+    
+    .Side_Pic { width:0}
+
+
+
+/* BLACK SPACE */
+
+.Black_Space {
+    display: none;
+    /* height:25px;
+    font-size: 10px; */
+}
+
+/* GALLER WINDOW */
+
+.Gallery{flex-direction: column;}
+
+.Text{flex-basis:20%;
+text-align: center;
+padding: 20px 20px;}
+
+.images{
+    flex-basis: 80%;
+    justify-content: center;
+grid-auto-rows: 150px;}
+
+/* ABOUT ME PAGE */
+.About_me{height: 20vh;
+padding: 3.5%;}
+.About_Text{font-size: 32.5px;}
+.About_Body{font-size: 12.5px;
+padding: 0 5%;}
+
+/* FOOTER */
+
+.footer{height: 15vh;
+    padding: 2% 10%;
+    }
+    
+    .Connect_me {font-size: 25px;}
+    
+    .Contact{height: 40px;
+    padding: 15%;}
+    
+    
+    .container{padding: 0 30%;}
+
+}
