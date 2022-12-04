@@ -86,10 +86,6 @@ gap: 20px;
 /* text-shadow: 5px 5px 4px black; */
 }
 
-#Second_Para{
-    /* text-shadow: 2.5px 2.5px 4px black; */
-}
-
 .Text{
     flex-basis: 40%;
     color: white;
@@ -165,18 +161,27 @@ html{scroll-behavior: smooth;}
 
 @media screen and (max-width:1024px) {
 
+    /* TOP BANNER */
+    .Top_Banner{
+        height: 35px;
+        font-size: 12px;}
+       
+
+
     /* NAVBAR */
     .Navigation_Bar{display: none;}
 
     /* HERO SECTION */
+
+    .Hero_Section{height: 50vh;}
     
     .Text_content { width: 100%;}
 
-    .Main_Head {font-size: 75px;
+    .Main_Head {font-size: 45px;
     text-align: center;}
 
     .Main_Body_Text{text-align: center;
-    font-size: 14px;}
+    font-size: 11px;}
     
     .Side_Pic { width:0}
 
@@ -194,34 +199,36 @@ html{scroll-behavior: smooth;}
 
 .Gallery{flex-direction: column;}
 
-.Text{flex-basis:20%;
+.Text{flex-basis:25%;
 text-align: center;
-padding: 20px 20px;}
+padding: 30px 0px;}
 
 .images{
-    flex-basis: 80%;
+    flex-basis: 75%;
     justify-content: center;
-grid-auto-rows: 150px;}
+grid-auto-rows: 135px;}
 
 /* ABOUT ME PAGE */
-.About_me{height: 20vh;
-padding: 3.5%;}
-.About_Text{font-size: 32.5px;}
-.About_Body{font-size: 12.5px;
+.About_me{height: 15vh;
+padding: 3%;}
+.About_Text{font-size: 30px;
+padding: 5px 0;}
+.About_Body{font-size: 7px;
 padding: 0 5%;}
 
 /* FOOTER */
 
-.footer{height: 15vh;
-    padding: 2% 10%;
+.footer{height: 10vh;
+    padding: 1% 5%;
     }
     
-    .Connect_me {font-size: 25px;}
+    .Connect_me {font-size: 17px;
+    padding: 1%;}
     
-    .Contact{height: 40px;
-    padding: 15%;}
+    .Contact{height: 25px;
+    padding:10%;}
     
     
-    .container{padding: 0 30%;}
+    .container{padding: 0 25%;}
 
 }
