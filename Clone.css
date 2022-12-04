@@ -82,9 +82,9 @@ gap: 20px;
 }
 
 #Second_Page_Text {font-size: 50px;
-text-shadow: 5px 5px 4px black;}
+/* text-shadow: 5px 5px 4px black; */
+}
 
-#Second_Para{text-shadow: 2.5px 2.5px 4px black;}
 
 .Text{
     flex-basis: 40%;
@@ -117,4 +117,5 @@ transition: all 1s ease-in-out;}
 .row_2{grid-row: span 2;}
 
 .box:hover{background-position:center;
-box-shadow: 0 0 4px white;}
+/* box-shadow: 0 0 4px white; */
+}
