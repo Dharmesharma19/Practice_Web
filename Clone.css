@@ -159,12 +159,12 @@ html{scroll-behavior: smooth;}
 
 
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:700px) {
 
     /* TOP BANNER */
     .Top_Banner{
         height: 35px;
-        font-size: 12px;}
+        font-size: 10px;}
        
 
 
@@ -197,23 +197,37 @@ html{scroll-behavior: smooth;}
 
 /* GALLER WINDOW */
 
-.Gallery{flex-direction: column;}
+.Gallery{flex-direction: column;
+height: 50vh;}
 
-.Text{flex-basis:25%;
-text-align: center;
-padding: 30px 0px;}
+.Text{text-align: center;
+    flex-basis: 20%;
+    align-content: center;
+    height: 10vh;
+}
+
+
+#Second_Page_Text{font-size: 35px;}
+
+#Second_Para{font-size:10px;}
 
 .images{
-    flex-basis: 75%;
-    justify-content: center;
-grid-auto-rows: 135px;}
+    flex-basis: 70%;
+    width:100%;
+    gap: 2px;
+    color: white;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows:50px;}
+
+.box{font-size: 7px;
+text-align: center;}
 
 /* ABOUT ME PAGE */
 .About_me{height: 15vh;
 padding: 3%;}
-.About_Text{font-size: 30px;
+.About_Text{font-size:20px;
 padding: 5px 0;}
-.About_Body{font-size: 7px;
+.About_Body{font-size: 5px;
 padding: 0 5%;}
 
 /* FOOTER */
@@ -222,13 +236,14 @@ padding: 0 5%;}
     padding: 1% 5%;
     }
     
-    .Connect_me {font-size: 17px;
+    .Connect_me {font-size: 10px;
     padding: 1%;}
     
-    .Contact{height: 25px;
+    .Contact{height: 15px;
     padding:10%;}
     
     
-    .container{padding: 0 25%;}
+    .container{padding: 0 30%;}
+
 
 }
