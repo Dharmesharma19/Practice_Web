@@ -159,7 +159,7 @@ html{scroll-behavior: smooth;}
 
 
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:640px) {
 
     /* TOP BANNER */
     .Top_Banner{
@@ -177,11 +177,11 @@ html{scroll-behavior: smooth;}
     
     .Text_content { width: 100%;}
 
-    .Main_Head {font-size: 45px;
+    .Main_Head {font-size: 35px;
     text-align: center;}
 
     .Main_Body_Text{text-align: center;
-    font-size: 11px;}
+    font-size: 8px;}
     
     .Side_Pic { width:0}
 
@@ -201,15 +201,16 @@ html{scroll-behavior: smooth;}
 height: 50vh;}
 
 .Text{text-align: center;
-    flex-basis: 20%;
+    flex-basis: 25%;
     align-content: center;
     height: 10vh;
+    padding: 20px 0px 0 0px;
 }
 
 
-#Second_Page_Text{font-size: 35px;}
+#Second_Page_Text{font-size: 30px;}
 
-#Second_Para{font-size:10px;}
+#Second_Para{font-size:7px;}
 
 .images{
     flex-basis: 70%;
@@ -227,7 +228,7 @@ text-align: center;}
 padding: 3%;}
 .About_Text{font-size:20px;
 padding: 5px 0;}
-.About_Body{font-size: 5px;
+.About_Body{font-size: 6px;
 padding: 0 5%;}
 
 /* FOOTER */
